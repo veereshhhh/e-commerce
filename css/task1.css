@@ -1,0 +1,43 @@
+
+* body{
+    background-color: black;
+}
+nav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    color:bisque;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    padding: 20px 10em 0 0 ;
+}
+nav ul li{
+    float: left;
+}
+section{
+    height: 100vh;
+}
+section h1{
+    padding-top: 10em;
+    padding-left: 10em;
+   letter-spacing: 10px;
+    font-style: italic;
+    font-weight: 200;
+}
+
