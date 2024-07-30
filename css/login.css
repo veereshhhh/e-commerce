@@ -1,5 +1,5 @@
 
-/*
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
@@ -29,7 +29,7 @@ span {
 	font-size: 12px;
 }
 
-a {
+.social-containerr a {
 	color: #333;
 	font-size: 14px;
 	text-decoration: none;
@@ -62,7 +62,7 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
-form {
+.formm {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -81,7 +81,12 @@ input {
 	width: 100%;
 }
 
-.container {
+.c1{
+	padding-left: 22em;
+	padding-top: 20px;
+}
+
+.containerr {
 	background-color: #fff;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
@@ -91,33 +96,35 @@ input {
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
+	
+	
 }
 
-.form-container {
+.form-containerr {
 	position: absolute;
 	top: 0;
 	height: 100%;
 	transition: all 0.6s ease-in-out;
 }
 
-.sign-in-container {
+.sign-in-containerr {
 	left: 0;
 	width: 50%;
 	z-index: 2;
 }
 
-.container.right-panel-active .sign-in-container {
+.containerr.right-panel-active .sign-in-containerr {
 	transform: translateX(100%);
 }
 
-.sign-up-container {
+.sign-up-containerr {
 	left: 0;
 	width: 50%;
 	opacity: 0;
 	z-index: 1;
 }
 
-.container.right-panel-active .sign-up-container {
+.containerr.right-panel-active .sign-up-containerr {
 	transform: translateX(100%);
 	opacity: 1;
 	z-index: 5;
@@ -136,7 +143,7 @@ input {
 	}
 }
 
-.overlay-container {
+.overlay-containerr {
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -147,7 +154,7 @@ input {
 	z-index: 100;
 }
 
-.container.right-panel-active .overlay-container{
+.containerr.right-panel-active .overlay-containerr{
 	transform: translateX(-100%);
 }
 
@@ -167,7 +174,7 @@ input {
 	transition: transform 0.6s ease-in-out;
 }
 
-.container.right-panel-active .overlay {
+.containerr.right-panel-active .overlay {
   	transform: translateX(50%);
 }
 
@@ -190,7 +197,7 @@ input {
 	transform: translateX(-20%);
 }
 
-.container.right-panel-active .overlay-left {
+.containerr.right-panel-active .overlay-left {
 	transform: translateX(0);
 }
 
@@ -199,7 +206,7 @@ input {
 	transform: translateX(0);
 }
 
-.container.right-panel-active .overlay-right {
+.containerr.right-panel-active .overlay-right {
 	transform: translateX(20%);
 }
 
@@ -217,30 +224,6 @@ input {
 	height: 40px;
 	width: 40px;
 }
-*/
 
 
 
-
-.gradient-custom-2 {
-    /* fallback for old browsers */
-    background: #fccb90;
-    
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
-    
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
-    }
-    
-    @media (min-width: 768px) {
-    .gradient-form {
-    height: 100vh !important;
-    }
-    }
-    @media (min-width: 769px) {
-    .gradient-custom-2 {
-    border-top-right-radius: .3rem;
-    border-bottom-right-radius: .3rem;
-    }
-    }
